@@ -18,8 +18,8 @@ jobs:
       
       - name: Build and push Docker image
         run: |
-          docker build -t username/repo_name:latest .
-          docker push username/repo_name:latest
+          docker build -t o111oo11o/voronka-webapp:latest .
+          docker push o111oo11o/voronka-webapp:latest
       
       - name: Deploy to VPS
         uses: appleboy/ssh-action@master
