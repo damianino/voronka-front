@@ -4,7 +4,7 @@
   padding: 2rem;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  color: black;
+  color: inherit;
 }
 
 .logo {
@@ -113,11 +113,23 @@
 .now-playing h2 {
   margin: 0;
   font-size: 1.5rem;
-  color: black;
+  color: inherit;
   font-weight: bold;
 }
 
 .now-playing p {
   margin: 0.5rem 0;
-  color: black;
+  color: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  .read-the-docs {
+    color: #888;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .read-the-docs {
+    color: #888;
+  }
 }

@@ -35,10 +35,29 @@ h1 {
   line-height: 1.1;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  }
+  .main-logo, .control-icon {
+    filter: invert(1);
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #1a1a1a;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
+  }
+  .main-logo, .control-icon {
+    filter: none;
   }
   a:hover {
     color: #747bff;
