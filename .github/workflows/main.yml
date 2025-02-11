@@ -29,5 +29,5 @@ jobs:
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
             docker pull o111oo11o/voronka-webapp:latest
-            cd voronka-webapp
-            docker-compose up -d --build
+            cd /var/voronka-front
+            docker compose up -d --build
