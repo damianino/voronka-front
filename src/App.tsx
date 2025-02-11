@@ -33,7 +33,7 @@ function App() {
   // Fetch now playing info
   const fetchNowPlaying = async () => {
     try {
-      const response = await fetch('http://xn--80aafhunugbapg.xn--p1ai/api/nowplaying/%D0%B2%D0%BE%D1%80%D0%BE%D0%BD%D0%BA%D0%B0')
+      const response = await fetch('http://xn--80aafhunugbapg.xn--p1ai:8001/api/nowplaying/воронка')
       const data = await response.json()
       setNowPlaying(data)
     } catch (error) {
@@ -147,7 +147,7 @@ function App() {
         {nowPlaying && (
           <div className="now-playing">
             <h2>{nowPlaying.now_playing.song.artist} - {nowPlaying.now_playing.song.title}</h2>
-            <p>Listeners: {nowPlaying.listeners.current}</p>
+            <p>Слушают: {nowPlaying.listeners.current}</p>
           </div>
         )}
         
