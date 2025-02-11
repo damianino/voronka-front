@@ -133,44 +133,46 @@ function App() {
   }, [])
 
   return (
-    <div className="app-container">
-      <div className="logo-container">
-        <img 
-          src="/logo.png"
-          className="main-logo"
-          alt="Logo" 
-          style={{ transform: `rotate(${rotation}deg)` }}
-        />
-      </div>
-      
-      {nowPlaying && (
-        <div className="now-playing">
-          <h2>{nowPlaying.now_playing.song.artist} - {nowPlaying.now_playing.song.title}</h2>
-          <p>Listeners: {nowPlaying.listeners.current}</p>
-        </div>
-      )}
-      
-      <div className="player-container">
-        <button 
-          className="play-button"
-          onClick={togglePlay}
-        >
+    <>
+      <div className="app-container">
+        <div className="logo-container">
           <img 
-            src={playState === 'playing' ? '/pause.png' : '/play.png'} 
-            alt={playState === 'playing' ? 'Pause' : 'Play'}
-            className="control-icon"
+            src="/logo.png"
+            className="main-logo"
+            alt="Logo" 
+            style={{ transform: `rotate(${rotation}deg)` }}
           />
-        </button>
+        </div>
         
-        <audio
-          ref={audioRef}
-          onError={(e) => {
-            console.error('Audio stream error:', e)
-            setPlayState('stopped')
-          }}
-        />
+        {nowPlaying && (
+          <div className="now-playing">
+            <h2>{nowPlaying.now_playing.song.artist} - {nowPlaying.now_playing.song.title}</h2>
+            <p>Listeners: {nowPlaying.listeners.current}</p>
+          </div>
+        )}
+        
+        <div className="player-container">
+          <button 
+            className="play-button"
+            onClick={togglePlay}
+          >
+            <img 
+              src={playState === 'playing' ? '/pause.png' : '/play.png'} 
+              alt={playState === 'playing' ? 'Pause' : 'Play'}
+              className="control-icon"
+            />
+          </button>
+          
+          <audio
+            ref={audioRef}
+            onError={(e) => {
+              console.error('Audio stream error:', e)
+              setPlayState('stopped')
+            }}
+          />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

@@ -1,0 +1,6 @@
+version: '3'
+services:
+  voronka_webapp:
+    build: .
+    ports:
+      - 3000:80
