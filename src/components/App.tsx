@@ -16,9 +16,7 @@ function App() {
   // Fetch initially and set up polling
   useEffect(() => {
     fetchNowPlaying().then(setNowPlaying)
-    
-    let interval: number | undefined
-    interval = window.setInterval(() => fetchNowPlaying().then(setNowPlaying), 1000)
+    window.setInterval(() => fetchNowPlaying().then(setNowPlaying), 1000)
   }, [])
 
   // Animation function
