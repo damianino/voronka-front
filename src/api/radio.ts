@@ -1,4 +1,4 @@
-export const StreamEndpoint = "https://xn--80aafhunugbapg.xn--p1ai/audio/radio.mp3"
+export const StreamEndpoint = "https://xn--80aimpg.xn--80aafhunugbapg.xn--p1ai/radio.mp3"
 
 // Type for the API response
 export interface NowPlaying {
@@ -25,7 +25,7 @@ export interface NowPlaying {
    // Fetch now playing info
 export const fetchNowPlaying = async (): Promise<NowPlaying> => {
     try {
-      const response = await fetch('https://xn--80aafhunugbapg.xn--p1ai/api/nowplaying/воронка')
+      const response = await fetch('https://xn--80aimpg.xn--80aafhunugbapg.xn--p1ai/api/nowplaying/воронка')
       const data = await response.json()
       return data
     } catch (error) {
