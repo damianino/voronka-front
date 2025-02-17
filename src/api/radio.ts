@@ -1,4 +1,4 @@
-export const StreamEndpoint = "https://xn--80aimpg.xn--80aafhunugbapg.xn--p1ai/radio.mp3"
+export const StreamEndpoint = "https://xn--80aimpg.xn--80aafhunugbapg.xn--p1ai:8000/radio.mp3"
 
 // Type for the API response
 export interface NowPlaying {
