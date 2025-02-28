@@ -132,6 +132,14 @@ function App() {
             }}
           />
         </div>
+        <div className="social-icons">
+          <a href="https://instagram.com/radiovoronka" target="_blank" rel="noopener noreferrer">
+            <img src="/instagram.png" alt="Instagram" className="social-icon" />
+          </a>
+          <a href="https://t.me/radiovoronka" target="_blank" rel="noopener noreferrer">
+            <img src="/telegram.png" alt="Telegram" className="social-icon" />
+          </a>
+        </div>
       </div>
     </>
   )
