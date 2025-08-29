@@ -1,0 +1,28 @@
+.stream-page-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    overflow: hidden;
+}
+
+.hls-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #000;
+    border: none;
+    outline: none;
+}
+
+.channel-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    height: auto;
+    z-index: 10;
+    opacity: 0.8;
+}

@@ -1,0 +1,10 @@
+.slot-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.slot-section > img {
+    width: 100px;
+    height: 100px;
+}
+

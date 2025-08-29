@@ -1,0 +1,125 @@
+/* Grand Variant */
+@font-face {
+    font-family: 'CyGrotesk Grand';
+    src: url('/fonts/cy-grotesk/CyGrotesk-GrandThin.otf') format('opentype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'CyGrotesk Grand';
+    src: url('/fonts/cy-grotesk/CyGrotesk-GrandLight.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'CyGrotesk Grand';
+    src: url('/fonts/cy-grotesk/CyGrotesk-GrandRegular.otf') format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'CyGrotesk Grand';
+    src: url('/fonts/cy-grotesk/CyGrotesk-GrandMedium.otf') format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'CyGrotesk Grand';
+    src: url('/fonts/cy-grotesk/CyGrotesk-GrandDemi.otf') format('opentype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'CyGrotesk Grand';
+    src: url('/fonts/cy-grotesk/CyGrotesk-GrandBold.otf') format('opentype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'CyGrotesk Grand';
+    src: url('/fonts/cy-grotesk/CyGrotesk-GrandHeavy.otf') format('opentype');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'CyGrotesk Grand';
+    src: url('/fonts/cy-grotesk/CyGrotesk-GrandBlack.otf') format('opentype');
+    font-weight: 900;
+}
+
+/* Key Variant */
+@font-face {
+    font-family: 'CyGrotesk Key';
+    src: url('/fonts/cy-grotesk/CyGrotesk-KeyThin.otf') format('opentype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'CyGrotesk Key';
+    src: url('/fonts/cy-grotesk/CyGrotesk-KeyLight.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'CyGrotesk Key';
+    src: url('/fonts/cy-grotesk/CyGrotesk-KeyRegular.otf') format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'CyGrotesk Key';
+    src: url('/fonts/cy-grotesk/CyGrotesk-KeyMedium.otf') format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'CyGrotesk Key';
+    src: url('/fonts/cy-grotesk/CyGrotesk-KeyDemi.otf') format('opentype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'CyGrotesk Key';
+    src: url('/fonts/cy-grotesk/CyGrotesk-KeyBold.otf') format('opentype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'CyGrotesk Key';
+    src: url('/fonts/cy-grotesk/CyGrotesk-KeyHeavy.otf') format('opentype');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'CyGrotesk Key';
+    src: url('/fonts/cy-grotesk/CyGrotesk-KeyBlack.otf') format('opentype');
+    font-weight: 900;
+}
+
+/* Wide Variant */
+@font-face {
+    font-family: 'CyGrotesk Wide';
+    src: url('/fonts/cy-grotesk/CyGrotesk-WideThin.otf') format('opentype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'CyGrotesk Wide';
+    src: url('/fonts/cy-grotesk/CyGrotesk-WideLight.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'CyGrotesk Wide';
+    src: url('/fonts/cy-grotesk/CyGrotesk-WideRegular.otf') format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'CyGrotesk Wide';
+    src: url('/fonts/cy-grotesk/CyGrotesk-WideMedium.otf') format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'CyGrotesk Wide';
+    src: url('/fonts/cy-grotesk/CyGrotesk-WideDemi.otf') format('opentype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'CyGrotesk Wide';
+    src: url('/fonts/cy-grotesk/CyGrotesk-WideBold.otf') format('opentype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'CyGrotesk Wide';
+    src: url('/fonts/cy-grotesk/CyGrotesk-WideHeavy.otf') format('opentype');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'CyGrotesk Wide';
+    src: url('/fonts/cy-grotesk/CyGrotesk-WideBlack.otf') format('opentype');
+    font-weight: 900;
+}

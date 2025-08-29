@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#root {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+
+
+.casino-page-container{
+    margin: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    height: calc(100vh - 32 * 2px);
+    align-items: center;
+}

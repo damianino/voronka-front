@@ -20,6 +20,20 @@ export interface NowPlaying {
       total: number;
     };
   }
+
+export const NowPlayingMock: NowPlaying = {
+    listeners: {current: 0, total: 0},
+    station: {description: "", name: ""},
+    now_playing: {
+        song: {
+            title: "name",
+            artist: "artist",
+            art: "",
+        },
+        elapsed: 123,
+        duration: 345,
+    }
+}
   
 
    // Fetch now playing info

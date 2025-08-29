@@ -1,0 +1,25 @@
+.topPlayer {
+    height: 100px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topPlayer > img {
+   height: inherit;
+}
+
+.playButton {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+

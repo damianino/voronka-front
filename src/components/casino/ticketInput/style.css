@@ -1,0 +1,46 @@
+.code-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    font-size: 24px;
+    color: #BF61A2;
+    font-family: "CyGrotesk Grand", serif;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: #3471b8 6px solid;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+
+.code-input:disabled{
+    color: #BF61A2;
+}
+
+.inputs-container{
+    display: flex;
+    gap: 11px;
+
+    position: absolute;
+    bottom: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ticket-container{
+    width: 398px;
+    height: 208px;
+
+    position: relative;
+
+
+}
+
+.ticket-container > img{
+    width: 100%;
+}

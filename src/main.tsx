@@ -1,10 +1,30 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './styles/index.css'
-import App from './components/App.tsx'
+import {
+    createBrowserRouter,
+    RouterProvider,
+} from "react-router";
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+import ReactDOM from "react-dom/client";
+import Index from "./pages/Index.tsx";
+import CasinoPage from "./pages/CasinoPage/index.tsx";
+import StreamPage from "./pages/StreamPage/index.tsx";
+
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <Index/>,
+    },
+    {
+        path: "/kazik",
+        element: <CasinoPage/>,
+    },
+    {
+        path: "/stream",
+        element: <StreamPage/>,
+    },
+]);
+
+const root = document.getElementById("root");
+
+ReactDOM.createRoot(root as HTMLElement).render(
+    <RouterProvider router={router} />
+);

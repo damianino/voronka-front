@@ -1,4 +1,5 @@
 #root {
+  width: 100%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 2rem;
@@ -37,10 +38,6 @@
 
 .card {
   padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
 
 .app-container {
@@ -122,21 +119,9 @@
   color: inherit;
 }
 
-@media (prefers-color-scheme: dark) {
-  .read-the-docs {
-    color: #888;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  .read-the-docs {
-    color: #888;
-  }
-}
-
 .social-icons {
   position: fixed;
-  top: 20px;
+  bottom: 20px;
   right: 20px;
   display: flex;
   gap: 20px;
